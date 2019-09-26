@@ -16,18 +16,13 @@ function App() {
       <Helmet>
         <meta charSet="utf-8"></meta>
         <title>Chou</title>
-        <link rel="icon" type="image/png" href="https://media.graphcms.com/apgl2eLxQDmUeQO4yjO7"></link>
+        {/* <link rel="icon" type="image/png" href="https://media.graphcms.com/apgl2eLxQDmUeQO4yjO7"></link> */}
         < meta name="description" content="Hi, I’m a student at Cornell University studying Computer Science and Physics.
           My interests include software / fullstack dev, and data science.
         Built with React & GraphQL"></meta>
       </Helmet>
     <div className="content">
-      <React.Suspense fallback={
-        <div className="purple">
-          <div id="loading">Loading <div id="eyes">👀</div>
-          </div>
-        </div>
-      }>
+      <React.Suspense fallback={<div></div>}>
         <Router primary={false}>
           <ScrollToTop path="/">
             <Dynamic path="dynamic" />
