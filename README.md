@@ -1,3 +1,3 @@
-# jchou-web-v4
+# jchou-web-v5
 
-Fourth exploration of my revamped personal website built from scratch with React, GraphQL, GraphCMS
+Fifth exploration of my revamped personal website built from scratch with React, GraphQL, GraphCMS
