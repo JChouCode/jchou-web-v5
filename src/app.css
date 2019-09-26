@@ -1,0 +1,78 @@
+* {
+  scroll-behavior: smooth;
+}
+
+.content {
+  background: black;
+  color: white;
+}
+
+body {
+  font-family: 'Morion', 'Helvetica Neue',
+    Helvetica, Arial, 'Lucida Grande', sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+#loading {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+}
+
+#loading #eyes {
+  display: inline-block;
+  animation: hover 250ms infinite;
+}
+
+@font-face {
+  font-family: 'Doublewide';
+  src: url('fonts/Doublewide-Light.woff2') format('woff2'),
+    url('fonts/Doublewide-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Morion';
+  src: url('fonts/Morion-Regular.woff2') format('woff2'),
+    url('fonts/Morion-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Morion';
+  src: url('fonts/Morion-Bold.woff2') format('woff2'),
+    url('fonts/Morion-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+
+@keyframes hover {
+  0% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  50% {
+    -webkit-transform: translateY(-4px);
+    transform: translateY(-4px);
+  }
+
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+@media only screen and (max-width: 880px) {}
