@@ -1,19 +1,41 @@
 .index {
   position: relative;
   min-height: 100vh;
-  padding-right: 4%;
-  padding-left: 4%;
+  background: white;
   color: black;
 }
 
 header {
   display: flex;
   width: 92%;
-  padding: 30px 0px;
+  font-size: 15px;
+  font-weight: bold;
+  margin-left: 4%;
+  margin-right: 4%;
   align-items: center;
+  align-content: center;
+  justify-content: space-between;
+}
+
+header h1 {
+  font-size: 15px;
 }
 
 
+header h1 span {
+  color: #6FB1FD;
+}
+
+.name h2 span {
+  font-size: 9rem;
+  font-weight: bold;
+}
+
+.name h2 {
+  margin: 0;
+}
+
+/* 
 .title-row h1 span {
   animation-name: delay-fadeout;
   animation-duration: 4s;
@@ -209,7 +231,7 @@ h3 {
 
 #language li:nth-child(odd) {
   animation: bounceL 5s infinite;
-}
+} */
 
 @keyframes bounceL {
   0% {
@@ -244,26 +266,6 @@ h3 {
     transform: translateX(-1%);
   }
 
-}
-
-#language li:hover {
-  font-family: 'Doublewide';
-  -webkit-text-stroke: none;
-  color: white;
-}
-
-
-a {
-  border: 1px solid white;
-  padding: 4px;
-  text-decoration: none;
-  color: white;
-}
-
-
-a:hover {
-  background: white;
-  color: black;
 }
 
 @keyframes left-right {
